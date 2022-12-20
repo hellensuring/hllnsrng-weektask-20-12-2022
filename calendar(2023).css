@@ -1,0 +1,152 @@
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+}
+
+.calendarname p {
+    color: #000000;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 63px;
+    font-weight: 1000;
+    opacity: 300%;
+}
+
+.table1 {
+    margin: 20px;
+}
+
+.calendarname img {
+    width: 90%;
+    align-content: center;
+    height: 200px;
+    opacity: 30%;
+    object-position: center;
+    border-radius: 100px;
+}
+
+.lefttable {
+    width: 46%;
+    float: left;
+    position: relative;
+    margin: 20px;
+}
+
+.january {
+    background-color: skyblue;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.february {
+    background-color: aqua;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.march {
+    background-color: skyblue;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.april {
+    background-color: aqua;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.may {
+    background-color: skyblue;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.june {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 100px;
+}
+
+.righttable {
+    float: right;
+    width: 46%;
+    position: relative;
+    margin: 20px;
+}
+
+.july {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.august {
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.september {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.october {
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.november {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.december {
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+@media (max-width: 1200px) {
+    .lefttable, .righttable {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+
